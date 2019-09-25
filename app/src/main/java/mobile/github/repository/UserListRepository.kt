@@ -24,14 +24,13 @@ object UserListRepository {
                 service.getUserList()
             }
 
-            //userList.forEach {
-            //    val repos = service.getRepos(it.login)
-            //
-            //    it.repos = repos
-            //}
+            userList.forEach {
+                val repos = service.getRepos(it.login)
+
+                it.repos = repos
+            }
             return userList
         }catch (e: Exception){
-            e.printStackTrace()
             return ArrayList()
         }
     }
