@@ -31,6 +31,7 @@ object UserListRepository {
             //}
             return userList
         }catch (e: Exception){
+            e.printStackTrace()
             return ArrayList()
         }
     }

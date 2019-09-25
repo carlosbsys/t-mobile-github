@@ -120,10 +120,11 @@
 
     <TextView
         android:padding="8dp"
-        android:textSize="18sp"
+        android:textSize="16sp"
+        android:id="@+id/profile_item_bio"
         android:text="There's a lot of text about a description from one user from github. Please don'tt ignore"
         android:layout_width="match_parent"
-        android:textColor="@color/black_primary"
+        android:textColor="@color/black_hint"
         app:layout_constraintTop_toBottomOf="@+id/profile_item_sub_container"
         android:layout_height="wrap_content"/>
 
