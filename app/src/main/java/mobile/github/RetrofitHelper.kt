@@ -22,7 +22,7 @@ object RetrofitHelper {
 
             val url = originalHttpUrl.newBuilder()
                 .addQueryParameter("client_id", "Iv1.d45f92b9164daf3c")
-                .addQueryParameter("client_secret", "5d6acf3be89f7b1be73d29c08f35ed2e7aafc57f")
+                .addQueryParameter("client_secret", "3ac7a3f384e75237f2c042509839b16a301fb0d1")
                 .build()
 
             // Request customization: add request headers

@@ -37,6 +37,7 @@ class UserListView : BaseView() {
                 if(source is User){
                     val bundle = bundleOf("nickname" to source.login)
 
+                    findNavController().navigate(R.id.open_profile_view, bundle)
                 }
             }
         }
