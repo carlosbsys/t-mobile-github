@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation_node"
+    app:startDestination="@id/userListView">
+
+    <fragment
+        android:id="@+id/userListView"
+        android:name="mobile.github.view.UserListView"
+        android:label="UserListView" >
+        <action
+            android:id="@+id/open_profile_view"
+            app:destination="@id/profileView" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileView"
+        android:name="mobile.github.view.ProfileView"
+        android:label="ProfileView" />
+</navigation>
